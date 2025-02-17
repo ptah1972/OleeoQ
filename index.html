@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OleeoQ - AI Chatbot</title>
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header / Navigation -->
+  <header>
+    <div class="container header-container">
+      <div class="logo">
+        <h1>OleeoQ</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#cta">Get Started</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <div class="container">
+      <h2>Meet OleeoQ</h2>
+      <p>
+        Revolutionize your recruitment experience with our AI-driven chatbot.
+        Deliver instant answers, 24/7 engagement, and a seamless candidate
+        journey.
+      </p>
+      <a href="#cta" class="btn">Discover More</a>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="features">
+    <div class="container">
+      <h2>Why Choose OleeoQ?</h2>
+      <div class="feature-grid">
+        <div class="feature-item">
+          <h3>Instant Responses</h3>
+          <p>
+            Provide immediate answers to candidate queries—no waiting, no
+            delays.
+          </p>
+        </div>
+        <div class="feature-item">
+          <h3>24/7 Availability</h3>
+          <p>
+            Our AI chatbot is always on, engaging candidates around the clock.
+          </p>
+        </div>
+        <div class="feature-item">
+          <h3>Seamless Integration</h3>
+          <p>
+            Easily embed OleeoQ within your recruitment systems for a smooth
+            workflow.
+          </p>
+        </div>
+        <div class="feature-item">
+          <h3>Enhanced Engagement</h3>
+          <p>
+            Create a modern, interactive experience that keeps candidates
+            informed and excited.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action Section -->
+  <section id="cta" class="cta">
+    <div class="container">
+      <h2>Ready to Transform Your Recruitment Process?</h2>
+      <p>
+        Embrace the future of candidate engagement with OleeoQ. Let's get
+        started!
+      </p>
+      <a href="mailto:contact@oleeo.com" class="btn">Get in Touch</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Oleeo. All rights reserved.</p>
+    </div>
+  </footer>
+  <script type="text/javascript">
+    (function(d, t) {
+        var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+        v.onload = function() {
+          window.voiceflow.chat.load({
+            verify: { projectID: '67b385704f05decd0413f1ea' },
+            url: 'https://general-runtime.voiceflow.com',
+            versionID: 'production'
+          });
+        }
+        v.src = "https://cdn.voiceflow.com/widget-next/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+    })(document, 'script');
+  </script>
+</body>
+</html>
